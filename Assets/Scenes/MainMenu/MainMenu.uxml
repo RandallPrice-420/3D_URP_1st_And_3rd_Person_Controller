@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scenes/MainMenu/Stylesheets/MainMenuStyles.uss?fileID=7433441132597879392&amp;guid=4f5150cb5c06b0c4c841fa7260328ec7&amp;type=3#MainMenuStyles" />
+    <ui:VisualElement name="MainMenu" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Scenes/MainMenu/Images/Background.png?fileID=2800000&amp;guid=182bea1c0c3c7c3479c88f0a5d5ea385&amp;type=3#Background&quot;); justify-content: center; align-items: center;">
+        <ui:VisualElement name="MenuContainer" style="flex-grow: 0; width: 600px; height: 600px; border-left-color: rgb(0, 124, 250); border-right-color: rgb(0, 124, 250); border-top-color: rgb(0, 124, 250); border-bottom-color: rgb(0, 124, 250); border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px; background-color: rgba(30, 50, 75, 0.78);">
+            <ui:Label tabindex="-1" text="MAIN MENU" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HeaderLabel" style="-unity-font-style: bold; font-size: 60px; color: rgb(255, 160, 0); -unity-text-align: upper-center; margin-left: 0; margin-right: 0; margin-top: 0; border-bottom-width: 5px; border-left-color: rgb(0, 124, 250); border-right-color: rgb(0, 124, 250); border-top-color: rgb(0, 124, 250); border-bottom-color: rgb(0, 124, 250); text-shadow: 10px 10px 5px rgb(29, 29, 29); padding-bottom: 10px; padding-top: 10px;" />
+            <ui:VisualElement name="ButtonContainer" style="flex-grow: 1; align-items: center; justify-content: center;">
+                <ui:Button text="PLAY" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonPlay" class="buttons-menu button-play" />
+                <ui:Button text="SETTINGS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonSettings" class="buttons menu-buttons settings-button buttons-menu button-settings" />
+                <ui:Button text="QUIT" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonQuit" focusable="false" class="buttons menu-buttons quit-button buttons-menu button-quit" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,49 @@
+.buttons-menu {
+    font-size: 40px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    width: 400px;
+    height: 100px;
+    align-items: auto;
+    justify-content: center;
+    align-self: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    text-shadow: 3px 3px 0 rgb(0, 0, 0);
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-bottom-width: 6px;
+    border-left-width: 6px;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.button-play {
+    background-color: rgb(229, 75, 70);
+}
+
+.button-play:hover {
+    background-color: rgb(150, 50, 46);
+}
+
+.button-settings {
+    background-color: rgb(70, 88, 220);
+}
+
+.button-settings:hover {
+    background-color: rgb(50, 59, 150);
+}
+
+.button-quit {
+    background-color: rgb(63, 175, 64);
+}
+
+.button-quit:hover {
+    background-color: rgb(44, 105, 44);
+}
